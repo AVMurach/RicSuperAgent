@@ -1,0 +1,52 @@
+
+.caption_grid{
+	padding-left: 5%;
+}
+
+.main_row {
+	height: 2.15sp auto;
+	width: 100%;
+	padding-top: 1sp;
+	margin-top: 0%;
+	padding-left: 5%;
+	padding-right: 7%;	
+	white-space: normal;
+	font: 100% Arial;
+	color: #000000;
+}
+
+.description_row {
+	height: 2.15sp auto;
+	width: 100%;
+	padding-top: 1sp;
+	margin-top: 0%;
+	padding-left: 5%;
+	padding-right: 7%;	
+	white-space: normal;
+	color: #8e8e93;
+	font: 100% Arial;
+}
+
+.image_block{
+	height: 11% auto;
+	width: 100%;
+	padding-left: 5%;
+	padding-top: 11%;
+	padding-bottom: 11%;
+	background-color: none;
+}
+
+.image_block super_agent{
+	background-image: url(logo_superagent.png);
+	height: 8sp;
+}
+
+.image_block firstBIT{
+	background-image: url(logo_firstbit.png);
+	height: 8sp;
+}
+
+.parameter_grid TextView {
+	width: 74%;
+	color: #000000;
+}

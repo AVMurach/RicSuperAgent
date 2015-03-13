@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c:Screen xmlns:c="BitMobile.Controls" xmlns:s="BitMobile.ValueStack" StyleSheet="Outlets.css">
+
+	<s:Push Id="search" Value="$param1" />
+	<s:Push Id="outlets" Value="$GetOutlets($search)"></s:Push>
+
+	<c:DockLayout>
+
+		<s:If Test="$workflow.name=='Order'">
+			<c:DockLayout CssClass="top_navigator">
+				<c:DockLayout Id="btnBack" CssClass="btn_back" OnEvent="Back" OnClickAction="$DoBack()">
+					<c:Image />
+					<c:TextView Text="#back#" />
+				</c:DockLayout>
+				<c:DockLayout Id="btnForward" CssClass="btn_forward" />
+				<c:HorizontalLayout>
+					<c:TextView Text="#clients#" />
+				</c:HorizontalLayout>
+			</c:DockLayout>
+		</s:If>
+		<s:Else>
+			<c:DockLayout CssClass="top_navigator">
+				<c:DockLayout Id="btnMenu" CssClass="btn_menu" OnEvent="Back" OnClickAction="$CommitAndBack()">
+					<c:Image CssClass="menuIcon" />
+				</c:DockLayout>
+				<c:DockLayout CssClass="btn_space" />
+				<c:HorizontalLayout>
+					<c:TextView Text="#clients#" />
+				</c:HorizontalLayout>
+			</c:DockLayout>
+		</s:Else>
+		<c:HorizontalLine />
+
+		<c:DockLayout CssClass="search">
+			<c:Button Id="btnSearch" Text="#search#" OnClickAction="$DoRefresh($edtSearch.Text)"></c:Button>
+			<c:DockLayout>
+				<c:Image />
+				<c:EditText Id="edtSearch" Text="$search" Placeholder="#search#"></c:EditText>
+			</c:DockLayout>			
+		</c:DockLayout>
+		<c:HorizontalLine />
+
+		<s:If Test="$workflow.name=='Outlets'">
+			<c:HorizontalLayout Id="btnAdd" CssClass="bottom_btn" OnClickAction="$DoAction(Create)">
+				<c:TextView Text="#add#"></c:TextView>
+			</c:HorizontalLayout>
+			<c:HorizontalLine CssClass="b_line" />
+		</s:If>
+
+
+		<c:ScrollView Id="grScrollView">
+
+			<c:HorizontalLayout CssClass="empty_caption_grid" />
+			<c:HorizontalLine />
+
+			<s:Iterator Id="outlet" Value="$outlets">
+
+				<c:DockLayout CssClass="grid" OnClickAction="$AddGlobalAndAction(outlet, $outlet.Id, Select)">
+					<s:If Test="$outlet.OutletStatus == 0">
+						<c:Image CssClass="blue_mark" />
+					</s:If>
+					<s:If Test="$outlet.OutletStatus == 1">
+						<c:Image CssClass="yellow_mark" />
+					</s:If>
+					<s:If Test="$outlet.OutletStatus == 2">
+						<c:Image CssClass="y_blue_mark" />
+					</s:If>
+					<s:If Test="$outlet.OutletStatus == 3">
+						<c:VerticalLayout CssClass="no_mark"></c:VerticalLayout>
+					</s:If>			
+					<c:VerticalLayout>
+						<c:TextView Text="$outlet.Description" CssClass="main_row"></c:TextView>
+						<c:TextView Text="$outlet.Address" CssClass="description_row"></c:TextView>
+					</c:VerticalLayout>
+					<c:Image />							
+				</c:DockLayout>
+				<c:HorizontalLine />
+
+			</s:Iterator>
+
+			<c:HorizontalLayout CssClass="end_of_block" />
+
+		</c:ScrollView>
+
+	</c:DockLayout>
+
+
+</c:Screen>

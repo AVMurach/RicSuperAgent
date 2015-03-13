@@ -1,0 +1,264 @@
+﻿outlet_description	Outlet description
+forward		Next
+back		Back
+summary		Summary
+caps_summary	SUMMARY
+new			New
+client		Client
+clients		Clients
+newClient	New client
+main		MAIN
+mainInfo	MAIN INFORMATION
+mainData	MAIN DATA
+additionally	ADDITIONALLY
+ todo		ToDo
+stock		Stock
+schedule	Schedule
+order		Order
+visit		Visit
+newVisit	New visit
+visits		Visits
+incompletedVisits	INCOMPLETED VISITS
+completedVisits		COMPLETED VISITS
+info		About
+planVisit	Planned
+unplanned	Unplanned
+outlets		Outlets
+targets		Targets
+target		Target
+settings	Settings
+sync		Sync
+syncPhoto	Sync photo
+search		Search
+outlet		Outlet
+outlet_class	Outlet class
+outlet_type	Outlet type
+distributor	Distributor
+answer		Answer
+typeanswer	Insert answers..
+username	User name
+password	Password
+cancel		Cancel
+Ok		Ok
+discard		Discard
+apply		Apply
+parameters	Parameters
+parameter	Parameter
+select_answer	SELECT VALUE..
+select_answer_low	Select value..
+save		Save
+no_questions	No questions
+empty_field	Field couldn't be cleaned
+questions	Questions
+questAnswers	Questionnairy
+commentary	Commentary
+insert_answer	INSERT VALUE..
+amount		Amount
+skuInOrder	ADDED SKUs
+sku			SKU
+distribution	Distribution
+quantity	Quantity
+price		Price
+edit		Edit
+insert_text	Insert text..
+totalamount	Total amount
+orderSum	Order amount
+price2		Price:
+orderHistory	ORDER HISTORY
+kpi			KPI
+tasks		Tasks
+task		Task
+todoDone	Tasks done
+execute		Execute
+retrieve	Retrieve
+newTasks	NEW TASKS
+executedtask	EXECUTED TASK
+description	Description
+result		Result
+plandate	Plan date
+date		Date
+distributor	Distributor
+outletType	Outlet type
+outletClass	Outlet class
+available	Available
+facing		Facing
+stock		Stock
+price		Price
+markUp		Mark Up
+outOfStock	Out Of Stock
+false		False
+true		True
+done		Done
+ready		Done
+pcs			pcs.
+orders		Orders
+newOrder	Create new order
+add			Add
+discount	Discount
+noNumber	No number
+showImage	Show image
+hideImage	Hide image
+markUp		MarkUp
+unit		Unit
+baseUnit	Base unit
+selectUnit	Select unit:
+logo		logoEn
+packUnit	Pack unit
+refreshScreen	Refresh screen
+no_tasks	No tasks
+documentSum	Document sum
+document	Document
+receivables	Receivables
+receivable	Receivable
+byDocs		DOCUMENTS
+encashment	Encashment
+sum			Sum
+encashmentSum	Encashment sum
+spreadOnDocuments	Spread on documents
+spread		Spread
+docNumber	Document number
+receivableAmount	RECEIVABLE AMOUNT
+encashmentAmount	Encashment amount
+nameSurname	Name, surname
+maximumAmount	Amount limit
+NoLimit		No limit
+deleteItem	Delete this item
+startTime	Start time
+newOutlet	Create new outlet
+messageNulls	There shouldn't be empty fields.
+countPrice	Count price
+address		Address
+description	Description
+coordinates	Coordinates
+set			Set
+coordinatesAreSet	Coordinates Are Set
+noCoordinates	Coordinates aren't set
+setVisitCoordinates		Retry to set coordinates?
+setCoords	Set coordinates
+setCoordinates	Set outlet coordinates by current location?
+location	Set outlet location
+locationSetFailed	Location set is failed.
+saveChanges	Save changes?
+map			Map
+showOnMap	Show on map
+no_visitPlans	No visits to display
+current		Current
+couldnt_be_cleaned	Field couldn't be cleaned
+priceList	Price list
+isntSelected	Isn't selected
+SKUWillRevised	SKU list has been revised
+features	Features
+noPriceLists	No Price Lists
+emptyList	List is empty
+impossibleToDelete	Impossible to delete, order is already in base
+impossibleToEdit	Impossible to edit, order is already in base
+valueList	Value list
+deliveryDate	Delivery date
+enterDateTime	Enter date, time
+noImage	No image found
+of	of
+information	Information
+snapshot	Snapshot
+noSnapshot	No snapshot
+snapshotAttached	Snapshot attached
+clickToInsert	Click to insert
+YES		Yes
+NO		No
+filter	Filter
+clearFilter		Clear filter?
+groups	Groups
+brands	Brands
+brand	Brand
+impossibleToCreateVisit	Impossible to create plan visit until coordinates aren't set. Retry to get location?
+fillNoOrderReason	Reason for not taking the order should be filled.
+reasonForEmptyOrder	Reason for not taking the order
+fillInVisitReason	Reason of visit should be filled
+visitReason	Visit reason
+debt	Debt
+orderInfo	ORDER INFORMATION
+orderInfoSmall	Order information
+visitTotal	Visit total
+synchronizationData	SYNCHRONIZATION OF DATA
+synchronizationPhoto	SYNCHRONIZATION OF PHOTOS
+lastSync	Last synchronization
+synchronize	Synchronize
+vpVisits	visits
+vpPerformed	performed
+further	further
+scheduled	scheduled
+planned	planned
+vpUnplanned	unplanned
+amountOfOrdersForToday	amount of orders for today
+programmingCollectionForToday	encashment for today
+accountsReceivables	account receivables
+unknown	unknown
+list	List
+turnaroundTime	Turnaround time
+noteAsExecuted	Note as executed
+noteAsNew	Note as new
+noDescriGiven	(no description given)
+error	Error
+at	at
+currency	CAD
+Synchronization_has_not_been_performed	Synchronization has not been performed
+delete	Delete
+details		Details
+contacts	Contacts
+contact		Contact
+newContact	New contact
+legal_name	Legal name
+legal_address	Legal address
+ownership		Ownership type
+inn			INN
+kpp			KPP
+phone		Phone number
+email		E-mail
+web_site	Web-site
+stockPlace	Stock
+total_receivable	Total sum:
+overdue		Overdue:
+overdueSum	[overdue]
+allStocks	All stocks
+nextVisitDate	Next visit date
+incorrect		Incorrect
+contactName		Contact name
+position		Position
+visitdate		Visit date
+alreadyOrdered	already in order
+repeat		Repeat
+nonregular	Non-regular
+regular		Regular
+requiredLeft	Reqired answers left:
+recommended		recommend.
+developer	DEVELOPER
+bitMobile	BIT.MOBILE
+bitmobileDesc	BIT.MOBILE is a division of the First Bit. We are developing mobile solutions for business.
+about		ПОДРОБНЕЕ О ПРИЛОЖЕНИИ
+version		Версия 2.4.0.67
+superDescription	СуперАгент — мобильное решение для сбора заказов, анкетирования и мерчандайзинга, контроля работы сотрудников.
+support		Тех.поддержка
+idea		Предложить идею
+agreement		Используя приложение вы принимаете условия лицензионного соглашения.
+icons		При создании приложения использованы иконки Icons8. Сайт разработчика icons8.com
+firstBIT	Первый БИТ — эффективные решения для вашего бизнеса. Лидер на рынке автоматизации 1С с 17 летним опытом!
+webSite		Сайт разработчика
+others		Другие приложения
+clear_coord		Clear coordinates
+refresh		Refresh
+copy		Copy
+deleteImage		Delete this image?
+outletSnapshots	Outlet snapshots
+addFromGallery	Add from gallery
+makeSnapshot	Make snapshot
+notAvailable	Snapshot isnt't available
+clearValue		Clear value
+setDate			Set date
+choose_action	Choose action:
+skuAdd			Adding SKU
+skuDetail		Detail
+skuList			LIST OF SKUs
+skuWillBeDeleted	Part of SKUs will be removed from order. Continue?
+logout			Logout
+logoutQuery		When you exit will delete all data
+cancel			Cancel
+logoutConfirm	Logout
